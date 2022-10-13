@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mini teclado</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script defer src="script.js"></script>
+</head>
+<body>
+	<div id="container-teclado">
+		<div id="container-botoes">
+      <button id="btn-piano">Piano</button>
+      <button id="btn-bateria">Bateria</button>
+      <button id="btn-violao">Violão</button>
+      <button id="btn-trompete">Trompete</button>
+		</div>
+
+    <div id="container-gravacao">
+      <button id="btn-gravar">Gravar</button>
+      <button id="btn-play-gravacao">Tocar</button>
+      <button id="btn-limpa-gravacao">Limpar</button>
+      <button id="btn-insere-pausa">Pausa</button>
+    </div>
+    
+		<div id="container-teclas-brancas">
+		   <div class="tecla-branca" id="tecla01"></div>
+		   <div class="tecla-branca" id="tecla02"></div>
+		   <div class="tecla-branca" id="tecla03"></div>
+		   <div class="tecla-branca" id="tecla04"></div>
+		   <div class="tecla-branca" id="tecla05"></div>
+		   <div class="tecla-branca" id="tecla06"></div>
+		   <div class="tecla-branca" id="tecla07"></div>
+	  </div>
+
+	  <div id="container-pretas">
+  		<div class="tecla-preta" id="preta01"></div>
+  		<div class="tecla-preta" id="preta02"></div>
+  		<div class="tecla-preta" id="preta03"></div>
+  		<div class="tecla-preta" id="preta04"></div>
+  		<div class="tecla-preta" id="preta05"></div> 
+	  </div>
+     <div id="img-instrumento"></div>
+  </div>
+
+
+
+   <!-- sons de piano-->
+   <audio src="audio/piano/do.wav" id="piano-1"></audio>
+   <audio src="audio/piano/re.wav" id="piano-2"></audio>
+   <audio src="audio/piano/mi.wav" id="piano-3"></audio>
+   <audio src="audio/piano/fa.wav" id="piano-4"></audio>
+   <audio src="audio/piano/sol.wav" id="piano-5"></audio>
+   <audio src="audio/piano/la.wav" id="piano-6"></audio>
+   <audio src="audio/piano/si.wav" id="piano-7"></audio>
+   <!-- sons de bateria-->
+   <audio src="audio/drum/tom-1.mp3" id="drum-1"></audio>
+   <audio src="audio/drum/tom-2.mp3" id="drum-2"></audio>
+   <audio src="audio/drum/tom-3.mp3" id="drum-3"></audio>
+   <audio src="audio/drum/tom-4.mp3" id="drum-4"></audio>
+   <audio src="audio/drum/snare.mp3" id="drum-5"></audio>
+   <audio src="audio/drum/crash.mp3" id="drum-6"></audio>
+   <audio src="audio/drum/tom-5.mp3" id="drum-7"></audio>
+   <!-- sons de violão-->
+   <audio src="audio/violao/01.mp3" id="violao-1"></audio>
+   <audio src="audio/violao/02.mp3" id="violao-2"></audio>
+   <audio src="audio/violao/03.mp3" id="violao-3"></audio>
+   <audio src="audio/violao/04.mp3" id="violao-4"></audio>
+   <audio src="audio/violao/05.mp3" id="violao-5"></audio>
+   <audio src="audio/violao/06.mp3" id="violao-6"></audio>
+   <audio src="audio/violao/07.mp3" id="violao-7"></audio>
+   <!-- sons de trompete-->
+   <audio src="audio/trompete/tromp01.mp3" id="trompete-1"></audio>
+   <audio src="audio/trompete/tromp02.mp3" id="trompete-2"></audio>
+   <audio src="audio/trompete/tromp03.mp3" id="trompete-3"></audio>
+   <audio src="audio/trompete/tromp04.mp3" id="trompete-4"></audio>
+   <audio src="audio/trompete/tromp05.mp3" id="trompete-5"></audio>
+   <audio src="audio/trompete/tromp06.mp3" id="trompete-6"></audio>
+   <audio src="audio/trompete/tromp07.mp3" id="trompete-7"></audio>  
+</body>
+</html>

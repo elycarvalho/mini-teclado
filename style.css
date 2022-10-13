@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+	min-height: 100vh;
+}
+
+#container-teclado{
+	background-image: radial-gradient(#671143, #121256);
+	margin: 50px auto;
+	width: 510px;
+	height: 336px;
+	border: 1px solid darkgray;
+	border-radius: 10px;
+}
+
+#container-gravacao{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	width: 260px;
+	border: 2px solid red;
+	margin-top: 15px;
+    margin-left: 9%;
+    border-radius: 10px;
+}
+
+#img-instrumento{
+	width: 70px;
+	height: 70px;
+	border:  1px solid orange;
+	position: relative;
+	bottom: 375px;
+	left: 400px;
+}
+
+#container-gravacao button{
+	width: 60px;
+	height: 30px;
+	border-radius: 6px;
+}
+
+#container-teclas-brancas{
+	margin: 30px auto 0 auto;
+	width: 85.1%;
+	display: flex;
+}
+
+#container-pretas{
+	display: flex;
+	margin-left: 80px;
+}
+
+.tecla-branca{
+	background-color: #fff;
+    border: 1px solid #000;
+    width: 60px;
+    height: 180px;
+    cursor: pointer;
+}
+
+.tecla-preta{
+	width: 35px;
+	height: 100px;
+	background-color: #000;
+	border-radius: 0 0 5px 5px;
+	position: relative;
+	bottom: 182px;
+
+}
+
+#preta02{
+	margin-left: 28px;
+	margin-right: 90px;
+}
+
+#preta03{
+	margin-right: 27px;
+}
+
+#preta04{
+	margin-right: 27px;
+}
+
+#container-botoes{
+	text-align: center;
+	margin: 10px auto;
+}
+
+#container-botoes button{
+	font-weight: bold;
+	font-size: 1rem;
+	margin: 5px;
+	width: 85px;
+	height: 35px;
+	border-radius: 10px;
+}
